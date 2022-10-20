@@ -1,0 +1,47 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+tr,th,td{
+   
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: rgb(236, 99, 99);
+}
+tr
+{
+    background-color: lightgray;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#button{
+   display: flex;
+   justify-content: center;
+}
+
+button{
+    padding: 10px;
+    margin: 5px;
+    color:brown;
+    font-size: 13px;
+    background-color: lightyellow;
+    border-radius: 100px;
+} 
+button:hover{
+    background-color: lightgoldenrodyellow;
+}
+.user{
+    display: grid;
+    justify-content: center;
+    margin: 0px;
+}
+.user input{
+    background-color: lightgrey ;
+    border: 1px solid black;
+}
